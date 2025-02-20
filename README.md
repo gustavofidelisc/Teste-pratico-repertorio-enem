@@ -1,11 +1,11 @@
 # React + TypeScript + Vite
 
 
-Para exercutar utilize
+## Para exercutar utilize
   
   ` npm run dev `
 
-Funcionalidades 
+## Funcionalidades 
 
 • Adicionar Parágrafo: Campo de texto onde o usuário possa digitar um novo parágrafo e um botão para adicioná-lo ao rascunho.
 

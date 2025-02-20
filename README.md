@@ -2,6 +2,7 @@
 
 Executar 
   Para exercutar utilize
+  
   ` npm run dev `
 
 Funcionalidades 

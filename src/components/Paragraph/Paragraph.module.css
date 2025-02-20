@@ -1,0 +1,17 @@
+.paragraph {
+    margin: 15px 0px;
+}
+
+.paragraph_text{
+    width: 100%;
+    overflow-wrap: break-word; /* Força a quebra de palavras longas */
+    white-space: pre-wrap;
+    cursor: pointer;
+
+}
+
+.paragraph_text:hover{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+

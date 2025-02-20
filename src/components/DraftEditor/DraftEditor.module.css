@@ -1,0 +1,162 @@
+
+*{
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .draftEditor {
+    background: #fdfdfd; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px; 
+    width: 90%; 
+    max-width: 800px;
+    min-height: 500px;
+    font-size: 16px;
+    
+    /* Sombras para criar profundidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                0 1px 3px rgba(0, 0, 0, 0.05);
+
+}
+
+
+.new_paragraph {
+    font-size: 16px;
+    line-height: 32.5px;
+
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    width:90%;
+    max-width: 812px;
+    min-height: 200px;
+    /* Sombras para criar profundidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.05);
+    white-space: pre-wrap;
+
+}
+
+.button_draft{
+    margin: 25px 0px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: #9800E8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 200ms;
+}
+
+button:hover{
+    background-color: #7102ad;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+h2 {
+    margin: 30px 0px;
+}
+
+
+.buttons{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+    & .button_update{
+        border: none;
+        width: 50px;
+        background: white;
+        &:hover{
+            border: 1px solid rgb(253, 253, 25);
+            border-radius: 5px;
+            width: 70px;
+            height: 25px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+    }
+    & .button_delete{
+        border: none;
+        width: 50px;
+        background: white;
+
+        &:hover{
+            border: 1px solid rgb(253, 25, 25);
+            border-radius: 5px;
+            width: 70px;
+            height: 25px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+    }
+
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    padding: 20px;
+    width: 800px;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    width:90%;
+    max-width: 812px;
+    min-height: 200px;
+    /* Sombras para criar profundidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.05);
+    white-space: pre-wrap;
+}
+
+.edit_textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.button_save {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button_cancel {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,7 +1,7 @@
 # React + TypeScript + Vite
 
-Executar 
-  Para exercutar utilize
+
+Para exercutar utilize
   
   ` npm run dev `
 
